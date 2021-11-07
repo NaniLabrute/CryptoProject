@@ -39,13 +39,12 @@ async function hulp(){
     options = {
         method: 'DELETE',
         url: url + kid,
-        // it need to be a string 
+        // the property body need to recieve string
         body: JSON.stringify(body)
        }
 
     await request.delete(options, function (err, res) {
         if (err) throw err
-        console.log(res.statusCode)
         res.pipe(process.stdout)
     })
 }

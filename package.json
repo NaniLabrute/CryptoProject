@@ -1,11 +1,6 @@
 {
-
     "dependencies": {
-  
-      "libsodium-wrappers": "^0.7.9",
-  
-      "simple-get": "^4.0.0"
-  
+        "libsodium-wrappers": "^0.7.9",
+        "simple-get": "^4.0.0"
     }
-  
-  }
+}
