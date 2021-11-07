@@ -27,7 +27,6 @@ async function main(){
         challenge = sodium.to_base64(challenge, sodium.base64_variants.ORIGINAL);
 
         // call the function hulp that make a delete request with the encoded challenge
-        // the reason is that we can't use the challenge variable out of this scope
         hulp()
     })
 }
